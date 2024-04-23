@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1 id="header-title">Sekigan</h1>
+    <p id="header-text">A Look into my Life!</p>
+    <nav>
+      <ul>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="contact-section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about-section">
+      <h2 class="section-title">About Me</h2>
+      <div id="bio">
+      <p>
+        Hello! I am new to coding but always wanted to dabble in it. My first interest happened in a Marketing class where I had to optimize a landing page for a product. Since then I wanted to start coding to create webpages and other projects. With Codedex's #30NitesOfCode, I have the motivation to start my journey. 
+        <br><br> <u>Some of my hobbies:</u>
+        <ul id="hobbies">
+          <li>Video games</li>
+          <li>Warhammer 40k</li>
+          <li>Anime</li>
+          <li>Cooking</li>
+      </p> 
+      </div>
+    </section>
 
+    <section id="projects-section">
+      <h2 class="section-title">My Projects</h2>
+      <div id="examples">
+        <img src="https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/community%2Ffinal-project%2Fpost%2F15R6DKQYsdom1SuGOz1F%2FRestaurant%20Menu.png?alt=media&token=fdaefb79-017b-45ac-be98-9993577573d3" class="photo" alt="Restaurant Menu Project"  id="project-1" ></img>
+        <div="examples-column">
+          <img src="https://pbs.twimg.com/media/GLQRrhYbEAAgYz8?format=jpg&name=small" alt="Invitation" class="photo" id="project-2"></img>
+          <img src="https://pbs.twimg.com/media/GLLMJYXbYAAGoJ4?format=jpg&name=small" alt="Invitation" class="photo" id="project-3"></img>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <h2 class="section-title">Contact</h2>
+      <form id="info">
+        <label for="email">E-mail:</label>
+          <input type="email" id="email">
+          <br><br>
+        <label for="questions-and-suggestions">Reason for Contact:</label>
+          <br>  
+          <textarea id="questions-and-suggestions" rows="7" cols="52" name="questions" id="questions"></textarea>
+        <br><br>
+        <input type="submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made by Sekigan</p>
+  </footer>
+</body>
+</html>
